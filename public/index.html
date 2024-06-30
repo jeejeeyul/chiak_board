@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>chiakboard</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    <script type="module">
+      const firebaseConfig = {
+        apiKey: "AIzaSyD6wNpqcDziR315BWNBIrv53L-723gCDJ8",
+        authDomain: "chiakboard.firebaseapp.com",
+        databaseURL:
+          "https://chiakboard-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "chiakboard",
+        storageBucket: "chiakboard.appspot.com",
+        messagingSenderId: "39135061967",
+        appId: "1:39135061967:web:77b83b3dbc284bc10c14ba",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script type="module" src="./src/motion.js"></script>
+    <header>
+      <img id="top_logo" src="./images/top_logo.png" />
+    </header>
+    <div id="main"></div>
+    <footer>
+      <input id="chatting" />
+      <button id="submit_btn">입력</button>
+    </footer>
+  </body>
+</html>
