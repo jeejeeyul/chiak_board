@@ -33,9 +33,10 @@ img#top_logo {
 .textbox {
   width: 80%;
   background-color: #fff;
-  height: 5%;
+  height: 10%;
   margin-left: 1%;
   margin-bottom: 1%;
+  font-size: larger;
 }
 
 footer {
@@ -52,5 +53,10 @@ input#chatting {
 
 button#submit_btn {
   width: 20%;
-  height: 70%;
+  height: 85%;
+}
+
+p {
+  font-size: smaller;
+  margin: 0;
 }
